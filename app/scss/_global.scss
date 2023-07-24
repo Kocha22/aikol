@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo__title{
+    margin: 10px 30px;
+}
+.wrapper{
+    margin: 0;
+    padding: 0;
+}
